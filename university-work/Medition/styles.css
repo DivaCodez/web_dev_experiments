@@ -1,0 +1,220 @@
+/* ========================= */
+/*        STYLE GENERAL       */
+/* ========================= */
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d2b48c;
+    margin-bottom: 80px;
+}
+
+
+/* ========================= */
+/*          HEADER           */
+/* ========================= */
+header {
+    background-color: #5d4037;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+
+nav a {
+    color: #f5f5dc;
+    font-family: 'Arial', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header {
+    text-align: center;
+    color: white;
+    height: 210px;
+    background-image: url("assets/header.png");
+    background-size: cover;
+    background-position: center;
+    padding-top: 80px;
+    margin: 20px;
+}
+
+
+
+/* ========================= */
+/*            ASIDE          */
+/* ========================= */
+aside {
+    float: right;
+    width: 20%;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    margin-top: 10px;
+    margin-right: 15px;
+    border-radius: 15px;
+    background-color: #8d6e63;
+}
+
+aside img {
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+aside h3 {
+    background-color: #5d4037;
+    color: white;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+
+
+/* ========================= */
+/*            MAIN           */
+/* ========================= */
+main {
+    margin-bottom: 20px;
+}
+
+main p {
+    margin-bottom: 15px;
+}
+
+section div {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 15px;
+    width: 70%;
+    margin-left: 2%;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    background-color: #5d4037;
+    color: #f5f5dc;
+    padding: 5px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+section ul,
+section dl,
+section dd {
+    padding: 5px;
+    margin-left: 20px;
+}
+
+#presentation ul {
+    padding-left: 30px;
+    list-style-image: url("livre-icon.png");
+    /*Pour utiliser une image personnalisée comme puce de liste*/
+}
+
+/* ========================= */
+/*          TABLE            */
+/* ========================= */
+#catalogue table {
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.tableCatalogue th,
+.tableCatalogue td {
+    border: 2px solid #8d6e63;
+    padding: 8px;
+    text-align: center;
+    padding: 5px;
+}
+
+.tableCatalogue th {
+    background-color: #6d4c41;
+    color: white;
+}
+
+.tableCatalogue tr:nth-child(even) {
+    background-color: #efebe9;
+}
+
+.tableCatalogue tr:nth-child(odd) {
+    background-color: #d7ccc8;
+}
+
+.tableCatalogue tr:nth-child(8) td:nth-child(1),
+/*l'ordre est trés importatnt parent>fils*/
+.tableCatalogue tr:nth-child(10) td:nth-child(1),
+.tableCatalogue tr:nth-child(10) td:nth-child(3) {
+    background-color: #d7ccc8;
+}
+
+/* ========================= */
+/*        LIEN PDF           */
+/* ========================= */
+#catalogue h4 img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    bottom: 0;
+}
+
+/* ========================= */
+/*          FOOTER           */
+/* ========================= */
+footer {
+    background-color: #5d4037;
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: fixed;
+    bottom: 0;
+    color: white;
+}
+
+footer a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+/* ========================= */
+/* Partie II: Effets Dynamiques*/
+/* ========================= */
+
+nav :hover {
+    text-decoration: underline;
+    color: 3e2723;
+    font-size: 1.1em;
+}
+
+footer :hover {
+    text-decoration: underline;
+    font-size: 1.1em;
+    color: white;
+}
+
+
+footer :hover {
+    text-decoration: underline;
+    font-size: 1.1em;
+    color: white;
+}
+
+::selection {
+    background-color: yellow;
+    color: blue;
+}
+
+.tableCatalogue td:hover {
+    opacity: 0.6;
+    cursor: pointer;
+
+}
