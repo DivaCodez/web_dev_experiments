@@ -31,6 +31,16 @@ This repository acts as my digital notebook for everything related to web develo
 *   **Selecting & Modifying:** Using `document.querySelector()` to find elements and dynamically changing their content or styles based on user interaction.
 *   **Event Listening:** Attaching events (like `click` or `submit`) and understanding the event loop conceptually.
 
+### 4. API Design & Data Validation (FastAPI)Pydantic Schemas: 
+*   **Enforcing strict data types and structural rules:** for incoming JSON payloads using Python classes.
+*   **RESTful Routing:** Mapping standard HTTP verbs (GET, POST, PUT) to dedicated backend functions for clear data fetching and manipulation.
+*   **Automatic Documentation:** Exploring interactive environments like Swagger UI (/docs) to test endpoints live without a frontend.
+
+### 5. Reactive UI & State Management (Streamlit):
+*   **Top-Down Script Execution:** Adapting to Streamlit’s unique execution flow, where the entire script reruns from scratch on every user action.
+*   **Widget Interactivity:** Binding variables directly to native components (like st.text_input or st.form) to instantly capture user inputs.
+*   **Dynamic UI Updates:** Refreshing the browser interface seamlessly using conditional blocks based on live data fetched from the API.
+
 ---
 
 ## 🛠️ Technical Summary
@@ -40,6 +50,8 @@ This repository acts as my digital notebook for everything related to web develo
 | **Forms Workshop** | `<label for="">`, `type="radio"` | Mastering semantic form structure and accessibility. |
 | **Layout Shifts** | `margin: -50px;`, `position` | Learning how to override default document flow. |
 | **DOM Updates** | `element.textContent`, `addEventListener` | Bridging the gap between static HTML and dynamic JS. |
+| **FastAPI** | `RESTful Routing & Pydantic Validation` | for building high-performance, asynchronous REST APIs with minimal boilerplate. |
+| **Streamlit** | `Reactive UI & Top-Down Script Execution` | Creates the interactive user interface that captures user inputs and dynamically displays the book list. |
 
 ---
 
